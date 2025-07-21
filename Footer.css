@@ -1,0 +1,53 @@
+.footer {
+  background: linear-gradient(135deg, #2c3e50, #4ca1af);
+  color: #fff;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  animation: gradientShift 10s ease infinite;
+  background-size: 200% 200%;
+  transition: all 0.3s ease-in-out;
+}
+
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.footer h5 {
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #ffd700;
+}
+
+.footer p, .footer li, .footer a {
+  color: #f1f1f1;
+  font-size: 0.95rem;
+}
+
+.footer a:hover {
+  color: #ffcc00;
+  text-decoration: underline;
+}
+
+.footer i {
+  font-size: 1.2rem;
+  transition: transform 0.3s ease;
+}
+
+.footer i:hover {
+  transform: scale(1.2);
+  color: #ffcc00;
+}
+
+.text-center p {
+  font-size: 0.85rem;
+  margin-top: 15px;
+  color: #ddd;
+}
